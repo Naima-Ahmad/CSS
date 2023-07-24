@@ -1,198 +1,155 @@
-#abc {
-    background-color: black;
-    margin: auto;
-    width: 100%;
-    /* height: 780px; */
-
-}
-
 body {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    color: white;
     background-color: black;
-}
-
-#p {
-    word-spacing: 30px;
-    color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-#label {
-    word-spacing: 1px;
-}
-
-#img {
-    padding-top: 13px;
-    padding-bottom: 0px;
-    padding-left: 300px;
-    padding-right: 300px;
-    cursor: pointer;
-}
-
-#input {
-    background-color: black;
-    color: white;
-    border-radius: 50px;
-    border-color: white;
-    width: 150px;
-    height: 50px;
-    cursor: pointer;
-    
-}
-
-#input1 {
-    background-color: red;
-    color: white;
-    border-radius: 50px;
-    border-color: red;
-    width: 150px;
-    height: 50px;
-    background-image: url('./images/arrow-icon.png');
-    background-size: 20px;
-    background-repeat: no-repeat;
-    background-position: right;
-    background-position-x: 110px;
-    padding-right: 35px;
-    cursor: pointer;
-}
-
-#img1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    height: 700px;
-    cursor: pointer;
-    
-}
-#abc1 {
-    background-color: black;
-    width: 100%;
-    
+    flex-wrap: wrap;
+    gap: 10px;
+    position: absolute;
 }
 
-.diva {
-    background-color: black;
-    margin-bottom: 60px;
+.salt-logo {
+    width: 165px;
 }
 
-.pa {
-    color: white;
-    text-align: center;
-    font-size: 40px;
-    font-family: 'monospace, Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Courier;
-}
-
-.paa {
-    color: rgb(167, 167, 167);
-    text-align: center;
-    font-family: 'monospace, Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Courier;
-    font-size: 40px;
-}
-p > b {
-    font-family: abc;
-    font-size: 40px;
-}
-
-@font-face {
-    font-family: abc;
-    src: url(./fonts/Courgette/Courgette-Regular.ttf);
-}
-table > tr > td > a > img {
-    text-align: center;
-}
-.spanab {
-/* border: 1px solid pink; */
-    margin: 20px 20px;
-}
-.cds {
-    /* border: 1px solid red; */
-    margin: auto;
-}
-
-.inputab {
-    background-color: black;
-    color: white;
-    border-radius: 50px;
-    border-color: white;
-    width: 150px;
-    height: 50px;
-    cursor: pointer;
-    /* margin-top: 20px; */
-
-}
-.td-center {
-    text-align: center;
-}
-
-.xyz {
-    padding-top: 60px;
-    color: white;
-    background-color: rgb(15, 15, 15);
-    text-align: center;
-}
-#main {
-    font-size: 40px;
-}
-.isl {
-    color: red;
-}
-.res, .pep {
-    font-size: x-large;
-    color: white;
-}
-.res {
-    font-family: 'monospace, Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Courier;
-}
-
-.isl {
-    color: red;
-    letter-spacing: 7px;
-    font-family:  'monospace, Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Courier;
-}
-
-.restaurant {
-    font-family:  'monospace, Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Courier;
-    color: white;
-    font-family: 'monospace, Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Courier;
-    font-size: 40px;
-    font-size: x-large;
-}
-
-.saltn {
-    color: white;
-    font-size: x-large;
-}
-
-.plot {
-    color: rgb(167, 167, 167);
-    font-family: 'monospace, Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Courier;
-}
-
-.inline {
+/* ul>li {
     display: inline-block;
+    padding: 15px;
+} */
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    flex-wrap: wrap;
+    /* border: 2px solid red; */
+    padding: 0px;
 }
 
-.inlinea {
-    display: inline-block;
-    
-}
-
-#input9 {
-    background-color: black;
+.redbutton {
+    border-radius: 35px;
+    border: 1px solid #ed1c24;
+    background-color: #ed1c24;
     color: white;
-    border-radius: 50px;
-    border-color: white;
     width: 150px;
-    height: 50px;
-    background-image: url('./images/arrow-icon.png');
-    background-size: 20px;
+    height: 55px;
+    /* padding-left: 10px; */
+    /* padding-right: 10px; */
+    position: absolute;
+    background-image: url(./images/arrow-icon.png);
+    background-size: 30px;
     background-repeat: no-repeat;
-    background-position: right;
-    background-position-x: 110px;
-    padding-right: 35px;
-    cursor: pointer;
+    background-position: 110px;
 }
 
-.jkl {
-    background-color: rgb(15, 15, 15);
+.img {
+    padding-left: 0px;
+    padding-right: 250px;
+}
+
+.label {
+    padding-right: 25px;
+}
+
+
+.whitebutton {
+    border-radius: 35px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    width: 130px;
+    height: 55px;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+}
+
+.arrow-icon {
+    width: 27px;
+    padding-left: 10px;
+}
+
+.dinner {
+   background-image: url(https://static.tossdown.com/images/5937a4af-f437-4646-a8c2-ccd4b9a2d5cf.webp);
+    background-size: cover;
+    width: 100%;
+    height: 80vh;;
+}
+
+.saltnpepper {
+    font-family: 'Cormorant', serif;
+    font-size: 52px;
     
 }
+
+.black {
+    font-family: Times, serif;
+    font-size: 45px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.small {
+    font-size: 15px;
+    color: rgb(195, 195, 195);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 0px;
+}
+
+.inlin-block1 {
+    width: 250px;
+    height: 125px;
+    border-radius: 3px;
+    background-color: white;
+    display: inline-block;
+    background-image: url(https://static.tossdown.com/site/8a66dd76-03d2-4b71-8d03-cf045f0248a7.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.inlin-block2 {
+    width: 250px;
+    height: 125px;
+    border-radius: 3px;
+    background-color: white;
+    display: inline-block;
+    background-image: url(https://static.tossdown.com/site/8a66dd76-03d2-4b71-8d03-cf045f0248a7.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.inlin-block3 {
+    width: 250px;
+    height: 125px;
+    border-radius: 3px;
+    background-color: white;
+    display: inline-block;
+    background-image: url(https://static.tossdown.com/site/8a66dd76-03d2-4b71-8d03-cf045f0248a7.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.white {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.button-div {
+    display: flex;
+    justify-content: end;
+    /* flex-direction: column; */
+    gap: 10px;
+    flex-wrap: wrap;
+    /* width: 350px; */
+}
+
