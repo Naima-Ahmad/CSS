@@ -85,6 +85,8 @@ ul {
 .saltnpepper {
     font-family: 'Cormorant', serif;
     font-size: 52px;
+    font-weight: bolder;
+    color: white;
     
 }
 
@@ -94,6 +96,8 @@ ul {
     background-color: black;
     color: white;
     text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .small {
@@ -104,35 +108,32 @@ ul {
 }
 
 .inlin-block1 {
-    width: 250px;
-    height: 125px;
+    width: 300px;
+    height: 150px;
     border-radius: 3px;
     background-color: white;
     display: inline-block;
-    background-image: url(https://static.tossdown.com/site/8a66dd76-03d2-4b71-8d03-cf045f0248a7.webp);
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 
 .inlin-block2 {
-    width: 250px;
-    height: 125px;
+    width: 300px;
+    height: 150px;
     border-radius: 3px;
     background-color: white;
     display: inline-block;
-    background-image: url(https://static.tossdown.com/site/9d9cb355-ac8c-404e-a608-c28242343cd1.webp);
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 .inlin-block3 {
-    width: 250px;
-    height: 125px;
+    width: 300px;
+    height: 150px;
     border-radius: 3px;
     background-color: white;
     display: inline-block;
-    background-image: url(https://static.tossdown.com/site/f9238d0e-7c34-4139-a081-c57b7713628e.webp);
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -153,3 +154,64 @@ ul {
     /* width: 350px; */
 }
 
+.saltimage {
+    margin: auto;
+    padding-top: 20px;
+}
+
+.gray {
+    background-color: rgb(21, 21, 21);
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.RestaurantFranchises {
+    font-size: xx-large;
+    color: white;
+    font-weight: bold;
+}
+
+.salt {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+
+.abc {
+    display: flex;
+}
+
+.islamabad {
+    color: #ed1c24;
+    font-size: 15px;
+    letter-spacing: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+
+}
+
+.saltnpepper1 {
+    font-family: 'Cormorant', serif;
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+    
+}
+
+.restaurant {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    color: white;
+    font-weight: lighter;
+}
+
+.map {
+    width: 10px;
+}
+
+.phone {
+    width: 15px;
+}
