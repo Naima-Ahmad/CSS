@@ -215,3 +215,60 @@ ul {
 .phone {
     width: 15px;
 }
+
+.directions {
+    margin-top: 50px;
+    border-radius: 35px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    width: 170px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.arrow {
+    width: 25px;
+}
+
+.flex {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.flex1 {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 40px;
+    width: 200px;
+}
+
+/* 
+.xyz {
+    display: flex;
+    gap: 50px;
+    border: 2px solid blueviolet;
+}
+
+.flex2 {
+    width: 100px;
+    border: 2px solid plum;
+    padding-left: 200px;
+}
+
+.restaurantimages {
+    padding-left: 350px;
+    width: 450px;
+} */
+
+.divabc {
+    display: flex;
+}
