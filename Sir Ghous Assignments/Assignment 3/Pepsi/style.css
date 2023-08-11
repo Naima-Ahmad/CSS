@@ -1,0 +1,23 @@
+.ul-flex {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    align-content: center;
+}
+
+nav {
+    background-color: #0065c3;
+    justify-content: space-around;
+    align-content: center;
+    padding: 1px;
+    height: 5%;
+}
+
+@font-face {
+    font-family: sofia;
+    src: url(./fonts/sofiapro/Fonts/sofiapro-light.otf);
+}
+
+body {
+    font: sofia;
+}
