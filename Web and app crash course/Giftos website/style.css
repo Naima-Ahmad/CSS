@@ -99,8 +99,6 @@ li {
     display: flex;
     gap: 15px;
     justify-content: center;
-    flex-wrap: wrap;
-    align-content: center;
 }
 
 .img {
@@ -164,6 +162,8 @@ li {
     padding: 0px 35px;
     padding-top: 35px;
     gap: 35px;
+    flex-wrap: wrap;
+    align-content: center;
 }
 
 .girl {
@@ -405,6 +405,14 @@ button {
         display: flex;
         flex-wrap: wrap;
         align-content: center;
+    }
+
+    .boxes-parent {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
     }
 
 }
