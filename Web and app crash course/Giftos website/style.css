@@ -62,8 +62,6 @@ li {
 .inline1 {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    align-content: center;
     /* flex-wrap: wrap; */
 }
 
@@ -403,4 +401,14 @@ button {
 
 .ordersite {
     color: black;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .inline1 {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
 }
